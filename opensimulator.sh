@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade
 
 # Instalar los paquetes necesarios
-sudo apt install git mono-runtime libmono-system-windows-forms4.0-cil libmono-system-web4.0-cil libmono-system-xml-linq4.0-cil libmono-system-data-linq4.0-cil libmono-system-runtime-caching4.0-cil libmono-system-runtime-serialization4.0-cil mono-devel screen nant
+sudo apt install -y git mono-runtime libmono-system-windows-forms4.0-cil libmono-system-web4.0-cil libmono-system-xml-linq4.0-cil libmono-system-data-linq4.0-cil libmono-system-runtime-caching4.0-cil libmono-system-runtime-serialization4.0-cil mono-devel screen nant
 
 # Descargar OpenSimulator
 cd ~
