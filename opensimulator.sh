@@ -10,7 +10,7 @@ sudo apt install git mono-runtime libmono-system-windows-forms4.0-cil libmono-sy
 # Descargar OpenSimulator
 cd ~
 git clone https://github.com/opensim/opensim.git
-
+cd ..
 # Compilar OpenSimulator
 cd opensim
 ./runprebuild.sh
