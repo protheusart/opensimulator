@@ -3,9 +3,7 @@
 # Actualizar el sistema
 sudo apt update
 sudo apt upgrade -y
-sudo apt update
-sudo apt-get install -y mono-complete
-sudo apt-get install -y mysql-server
+sudo apt-get install -y mono-complete mysql-server
 echo ´#changes for opensim use
 ssl=0
 skip_ssl
